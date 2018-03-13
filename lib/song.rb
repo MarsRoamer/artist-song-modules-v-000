@@ -20,7 +20,7 @@ class Song
   end
 
   def self.reset_all
-    @@songs.clear
+    all.clear
   end
 
 
