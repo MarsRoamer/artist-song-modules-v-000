@@ -1,16 +1,16 @@
-# module Memorable
-#
-#   def reset_all
-#     @@artists.clear
-#   end
-#
-#   def count
-#     @@artists.count
-#   end
-#
-#
-#
-#
-#
-#
-# end
+module Memorable
+
+  def reset_all
+    all.clear
+  end
+
+  def count
+    all.count
+  end
+
+
+
+
+
+
+end
